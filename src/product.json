@@ -2,70 +2,70 @@
     "products":[
         {
             "name":"Honey",
-            "price":"Rs. 234",
+            "price":"234",
             "brand":"Dabar",
             "description":"Healthy tasty delicious honey!!",
             "img":"https://www.bigbasket.com/media/uploads/p/xxl/202277_7-dabur-100-pure-honey-worlds-no1-honey-brand-with-no-sugar-adulteration.jpg"
         },
         {
             "name":"Honey",
-            "price":"Rs 124",
+            "price":"124",
             "brand":"Apis",
             "description":"Pure honey for healthy people!!",
             "img":"https://rukminim1.flixcart.com/image/416/416/jwtkk280/honey/w/4/p/500-himalaya-honey-apis-original-imafhezwcsg8aty6.jpeg?q=70"
         },
         {
             "name":"Chips",
-            "price":"Rs 20",
+            "price":"20",
             "brand":"Nestle",
             "description":"Cruncy Munchy chips!!",
             "img":"https://m.media-amazon.com/images/I/71WgpYm5DGL._SL1430_.jpg"
         },
         {
             "name":"Chips",
-            "price":"Rs 25",
+            "price":"25",
             "brand":"Bingo",
             "description":"Delicious potato chips",
             "img":"https://images-na.ssl-images-amazon.com/images/I/81UJfc5V1hL._SL1500_.jpg"
         },
         {
             "name":"Milky bar",
-            "price":"Rs 100",
+            "price":"100",
             "brand":"Nestle",
             "description":"Chewyy milky toffee bar!!",
             "img":"https://images-na.ssl-images-amazon.com/images/I/61xnbNMl4QL._SL1500_.jpg"
         },
         {
             "name":"KitKat",
-            "price":"Rs 30",
+            "price":"30",
             "brand":"Nestle",
             "description":"Crunchy chocolate!!",
             "img":"https://rukminim1.flixcart.com/image/416/416/knhsgi80/chocolate/j/3/g/27-5-kitkat-1-nestle-original-imag25s745tevrd4.jpeg?q=70"
         },
         {
             "name":"Cow Milk",
-            "price":"Rs 25",
+            "price":"25",
             "brand":"Amul",
             "description":"Double tonned milk",
             "img":"https://5.imimg.com/data5/WN/XT/AW/SELLER-80635375/amul-silk-and-trim-milk-500x500.jpg"
         },
         {
             "name":"Cow Milk",
-            "price":"Rs 24",
+            "price":"24",
             "brand":"Mother Diary",
             "description":"fresh cow milk",
             "img":"https://getquik.in/wp-content/uploads/2020/12/mofull1.png"
         },
         {
             "name":"Rusk",
-            "price":"Rs 40",
+            "price":"40",
             "brand":"Britannia",
             "description":"Crunchy Rusk biscuit",
             "img":"https://images-na.ssl-images-amazon.com/images/I/81NydMIxB7L._SL1500_.jpg"
         },
         {
             "name":"Bornville",
-            "price":"Rs 80",
+            "price":"80",
             "brand":"Cadbury",
             "description":"Delicious dark chocolate!!",
             "img":"https://images-na.ssl-images-amazon.com/images/I/711s9amB32L._SL1402_.jpg"

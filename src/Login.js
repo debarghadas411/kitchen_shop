@@ -5,8 +5,8 @@ class Login extends React.Component{
     constructor(props){
         super(props);
         this.isloggedIn=0;
-        this.state=this.props.params;
-        console.log(this.props.history);
+        this.state=this.props.params.userData;
+        console.log(this.state);
     }
     userChangeHandler = ()=>{
         var uname=document.getElementById('uname').value;

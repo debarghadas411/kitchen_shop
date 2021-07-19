@@ -3,7 +3,7 @@ import React from 'react';
 class ChangePassword extends React.Component{
     constructor(props){
         super(props);
-        this.state=this.props.params;
+        this.state=this.props.params.userData;
         console.log(this.state);
     }
     pwdMatchChecker=()=>{

@@ -4,15 +4,17 @@ import Login from './Login';
 import ProductPage from './ProductPage';
 import ChangePassword from './ChangePassword';
 import CartPage from './CartPage';
+import OrderConfirmed from './OrderConfirmed';
 import "./stylesheet.css";
-import userData from './user.json'
-import productData from './product.json'
+import userData from './user.json';
+import productData from './product.json';
 class WelcomePage extends React.Component{
   constructor(){
     super();
-    this.userData=userData;
-    this.productData=productData;
-    this.items=[]
+    this.state={userData:userData,  
+              productData:productData,
+              items:[]};
+    console.log(this.state)
   }
     render(){
         return (
@@ -24,10 +26,11 @@ class WelcomePage extends React.Component{
             <div className="nav-content"><NavLink to="/change-password"><h3 className="nav-link">CHANGE PASSWORD</h3></NavLink></div>
           </div>
           <div className="content">
-            <Route path="/admin-login"><Login params={this.userData}/></Route>
-            <Route path="/change-password"><ChangePassword params={this.userData}/></Route>
-            <Route path="/productPage"><ProductPage params={[this.productData,this.items]}/></Route>
-            <Route path="/cartPage"><CartPage params={this.items}/></Route>
+            <Route path="/admin-login"><Login params={this.state}/></Route>
+            <Route path="/change-password"><ChangePassword params={this.state}/></Route>
+            <Route path="/productPage"><ProductPage params={this.state}/></Route>
+            <Route path="/cartPage"><CartPage params={this.state}/></Route>
+            <Route path="/orderConfirmed"><OrderConfirmed params={this.state}/></Route>
           </div>
         </div>
       </HashRouter>
