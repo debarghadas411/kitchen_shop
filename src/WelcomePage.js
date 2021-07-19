@@ -20,7 +20,7 @@ class WelcomePage extends React.Component{
         return (
             <HashRouter>
         <div>
-          <h1>Kitchen Shop</h1>
+          <h1>Kitchen Story</h1>
           <div className="navbar" id="nb">
             <div className="nav-content"><NavLink exact to="/admin-login"><h3 className="nav-link">ADMIN LOGIN</h3></NavLink></div>
             <div className="nav-content"><NavLink to="/change-password"><h3 className="nav-link">CHANGE PASSWORD</h3></NavLink></div>
