@@ -26,7 +26,7 @@ render(){
     var temp=this.item;
         return (
             <div>
-                <h1>PRODUCT LIST</h1>           
+                <h1>CART</h1>           
                     {temp && temp.map(T =>
                     <div>
                         <div id="prodImg"><img src={T.img} alt={T.name} width="200" height="200"/></div>
